@@ -1,0 +1,53 @@
+App {
+  text-align: center;
+  margin: 100px;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid black;
+  width: 700px;
+  align-items: center;
+  background-color: aliceblue;
+}
+.diskHolder {
+  width: 7px;
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  margin: 15px;
+  height: 200px;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.disk {
+  height: 20px;
+  width: 150px;
+  background-color: deepskyblue;
+  margin: 5px;
+}
+
+.fade-enter {
+  opacity: 0.01;
+}
+
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 1000ms ease-in;
+}
+
+.fade-exit {
+  opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+  opacity: 0;
+  transition: opacity 1000ms ease-out;
+}
