@@ -1,5 +1,5 @@
 {
-  "name": "hanoi",
+  "name": "towers-of-hanoi",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,13 +12,15 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "npm run build&&gh-pages -d build"
   },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).",
-  "main": "index.js",
+  "description": "Towers of Hanoi programming riddle solved in ReactJS",
   "devDependencies": {
-    "babel-core": "^6.26.0"
+    "babel-core": "^6.26.0",
+    "gh-pages": "^1.0.0"
   },
-  "author": "",
+  "author": "Andreea Balaban",
+  "homepage": "https://candreeab.github.io/Towers-of-hanoi",
   "license": "ISC"
 }
