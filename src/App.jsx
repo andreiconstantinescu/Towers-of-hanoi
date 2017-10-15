@@ -33,7 +33,7 @@ class App extends Component {
     }
 
     componentDidMount() {
-        let numberOfDisks = parseInt(prompt("Please enter the number of Disks"));
+        let numberOfDisks = parseInt((prompt("Please enter the number of Disks")), 10);
         this.step = (120 / numberOfDisks);
         this.setState({
             numberOfDisks: numberOfDisks,
